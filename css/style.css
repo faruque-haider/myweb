@@ -1,0 +1,198 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main-content{
+    background: url(../image/bk.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.container{
+    width: 100%;
+    /* height: 100vh;     */
+}
+
+/** index start **/
+
+.menu{
+    width: 100%;
+    height: 100px;    
+}
+.leftmenu{
+    width: 55%;
+    line-height: 100px;
+    float: left; 
+    font-size: 30px;   
+}
+.leftmenu h2{
+    padding-left: 40px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+.rightmenu{    
+    width: 45%;
+    height: 100px;
+    float: left;
+    margin-top: 20px;   
+}
+.rightmenu ul li {
+    transition-duration: 500ms;
+    color: yellow;
+    border: 3px solid rgb(10, 235, 243);
+    border-style: groove;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    list-style: none;
+    font-size: 18px;
+    text-transform: uppercase;   
+    padding: 10px;    
+}
+.rightmenu ul li:hover {
+    background-color: rgb(30, 233, 23);
+    color: rgb(10, 10, 10);   
+}
+p{
+    line-height: 50px;
+    padding-left: 40px;    
+}
+.newslink ul li {
+    display: inline-block;
+}
+.click{
+    margin-left: 40px;
+    width: 100px;
+    cursor: pointer;
+    font-style: normal;
+    line-height: 20px;
+    text-align: center;
+    font-weight: bold;
+    border: 2.5px solid #4d30f0;
+    padding: 6px 15px;
+    border-radius: 25px 50px;
+    color: aqua;
+    font-size: 24;
+    text-decoration: none;
+    transition-duration: 500ms;
+} 
+.click:hover{
+    background-color: rgb(98, 187, 9);
+    color: black;    
+    box-shadow: 0 5px 50px 0 yellow;    
+}
+iframe{
+    border: 5px solid;
+    border-style: dotted;
+    border-radius: 20px;
+    margin-left: 40px;
+}  
+
+/** index end **/
+
+/** gallery start**/
+
+table{
+    background-color: white;
+    width: 70%;
+    margin: auto;    
+}
+.instruction{
+    margin-left: 25px;
+}
+img{
+    width: 150px;
+    height: 130px;
+}
+th{
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+    background-color: rgb(240, 202, 240);
+    padding: 20px;
+}
+td{
+    padding: 40px;
+}
+#description{
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+}
+button{
+    margin-bottom: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    float: right;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 5px solid #15f4ee;   
+    border-radius: 100px;
+    background-color: chartreuse;
+}
+button:hover{    
+    box-shadow: 0 5px 50px 0 #15f4ee;
+    cursor: pointer;
+}
+
+/** gallery end**/
+
+/** aboutme start**/
+.CV{
+    background-color: rgb(248, 247, 246);
+    margin: 50px 50px;
+    padding: 20px 20px;
+}
+.picture{    
+    float: right;
+    border: groove;
+}
+.class1{    
+    color: black;
+    text-align: center; 
+    padding: 0;
+}
+.col1{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Verdana;
+}
+.col2{    
+    margin-top: 50px;
+    font-size: 22px;    
+}
+.col3{
+    font-size: 22px;
+    font-weight: bold;    
+}
+h3{
+    background-color: rgb(192, 186, 186);
+    text-decoration: underline;
+}
+p{    
+    font-size: 20px;
+    text-align: justify;
+}
+li{
+    font-size: 20px;
+}
+.div1{
+    font-weight: bold;
+    font-size: 18px;
+}
+.div2{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/** aboutme end**/
+/** contact start**/
+
+.maintenance{
+    margin-left: 560px;
+    padding-top: 200px;  
+}
+
+
+/** contact end**/
